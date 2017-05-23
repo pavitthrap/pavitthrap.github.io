@@ -1887,3 +1887,27 @@ $baseurl: '{{ site.baseurl }}/images';
   }
 
 .grayscale {-webkit-filter: grayscale(100%); filter: grayscale(100%);}
+
+
+.tag {
+  border: 1px solid #ed4933;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: auto;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 1.33333em;
+  padding: 7px 18px;
+  margin-top: 0.8em;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+}
+
+ .fitAll {
+  max-width:100%;
+  max-height:100%;
+ }
