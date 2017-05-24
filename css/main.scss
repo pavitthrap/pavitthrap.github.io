@@ -1857,7 +1857,6 @@ $baseurl: '{{ site.baseurl }}/images';
 		background-color:#FFFFFF;
 		border-top: 20px solid #4b4e54;
 		border-radius: 10px 10px 0px 0px;
-		box-shadow: 4px 4px 2px #2a2c30;
 	}
 
 	.sides {
@@ -1910,4 +1909,11 @@ $baseurl: '{{ site.baseurl }}/images';
  .fitAll {
   max-width:100%;
   max-height:100%;
+ }
+
+
+ .flexer {
+  display:flex;
+  align-items:center;
+
  }
