@@ -8,45 +8,39 @@ title: Contact Me
 		<p>Shoot me a message from here if you want to get in touch.</p>
 		<hr />
 		<section>
-					<h4>Email me</h4>
-					<form method="post" action="#">
+					<h4>Email me</h4>					
+
+					<form method="POST" action="//formspree.io/pavitthp@andrew.cmu.edu" id="contactform">
 						<div class="row uniform">
 							<div class="6u 12u$(xsmall)">
-								<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+								<input type="text" name="Name" id="demo-name" value="" placeholder="Name" />
 							</div>
 							<div class="6u$ 12u$(xsmall)">
-								<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+								<input type="email" name="_replyto" id="demo-email" value="" placeholder="Email" />
 							</div>
 
 							<div class="3u 12u$(small)">
-								<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+								<input type="radio" id="demo-priority-low" name="type" checked>
 								<label for="demo-priority-low">Personal/Networking</label>
 							</div>
 							<div class="3u 12u$(small)">
-								<input type="radio" id="demo-priority-normal" name="demo-priority">
+								<input type="radio" id="demo-priority-normal" name="type">
 								<label for="demo-priority-normal">Industry</label>
 							</div>
 							<div class="3u 12u$(small)">
-								<input type="radio" id="demo-priority-high" name="demo-priority">
+								<input type="radio" id="demo-priority-high" name="type">
 								<label for="demo-priority-high">Research</label>
 							</div>
 							<div class="3u$ 12u$(small)">
-								<input type="radio" id="demo-priority-mega" name="demo-priority">
+								<input type="radio" id="demo-priority-mega" name="type">
 								<label for="demo-priority-mega">Other</label>
 							</div>
 
-							<div class="6u 12u$(small)">
-								<input type="checkbox" id="demo-copy" name="demo-copy">
-								<label for="demo-copy">Email me a copy</label>
-							</div>
-							<div class="6u$ 12u$(small)">
-								<input type="checkbox" id="demo-human" name="demo-human" checked>
-								<label for="demo-human">Not a robot</label>
-							</div>
 							<div class="12u$">
-								<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+								<textarea name="message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
 							</div>
-
+							<input type="text" name="_gotcha" style="display:none" />
+							<input type="hidden" name="_subject" value="Website contact" />
 							<div class="12u$">
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" class="special" /></li>
