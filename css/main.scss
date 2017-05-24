@@ -1868,7 +1868,7 @@ $baseurl: '{{ site.baseurl }}/images';
 	.fixS {
 		flex-basis:90%;
 	}
-	
+
 	.sides {
 		height:1px;
 		flex-grow:1;
@@ -1898,6 +1898,45 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	.grayscale {-webkit-filter: grayscale(100%); filter: grayscale(100%);}
 
+	@-webkit-keyframes shakes {
+	  0%, 100% {
+	    -webkit-transform: translate3d(0, 0, 0);
+	            transform: translate3d(0, 0, 0);
+	  }
+
+	  12%, 37%, 62%, 88% {
+	    -webkit-transform: translate3d(-4px, 0, 0);
+	            transform: translate3d(-4px, 0, 0);
+	  }
+
+	  25%, 50%, 75% {
+	    -webkit-transform: translate3d(4px, 0, 0);
+	            transform: translate3d(4px, 0, 0);
+	  }
+	}
+
+	@keyframes shakes {
+	  0%, 100% {
+	    -webkit-transform: translate3d(0, 0, 0);
+	    -moz-transform: translate3d(0, 0, 0);
+	    -ms-transform: translate3d(0, 0, 0);
+	            transform: translate3d(0, 0, 0);
+	  }
+
+	  12%, 37%, 62%, 88% {
+	    -webkit-transform: translate3d(-4px, 0, 0);
+	    -moz-transform: translate3d(0, 0, 0);
+	    -ms-transform: translate3d(0, 0, 0);
+	            transform: translate3d(-4px, 0, 0);
+	  }
+
+	  25%, 50%, 75% {
+	    -webkit-transform: translate3d(4px, 0, 0);
+	    -moz-transform: translate3d(0, 0, 0);
+	    -ms-transform: translate3d(0, 0, 0);
+	            transform: translate3d(4px, 0, 0);
+	  }
+	}
 
 	.tag {
 	  border: 1px solid #ed4933;
@@ -1915,6 +1954,16 @@ $baseurl: '{{ site.baseurl }}/images';
 	  -ms-border-radius: 8px;
 	  -o-border-radius: 8px;
 	  border-radius: 8px;
+
+	  -webkit-transition: 1s ease-in-out;
+     -moz-transition: 1s ease-in-out;
+     -o-transition: 1s ease-in-out;
+      transition: 1s ease-in-out;
+
+	  &:hover {
+			-webkit-animation: shakes 0.5s;
+    		animation: shakes 0.5s;
+		}
 	}
 
 	 .fitAll {
