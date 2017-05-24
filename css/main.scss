@@ -1865,6 +1865,10 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 	}
 
+	.fixS {
+		flex-basis:90%;
+	}
+	
 	.sides {
 		height:1px;
 		flex-grow:1;
