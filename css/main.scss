@@ -1855,8 +1855,9 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
 	.console {
 		background-color:#FFFFFF;
-		border-top: 20px solid #4b4e54;
+		border-top: 20px solid #858589;
 		border-radius: 10px 10px 0px 0px;
+		border-right: 20px solid #c1c1c1;
 		order:2;
 		flex-basis:70%;
 
