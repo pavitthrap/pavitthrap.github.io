@@ -11,19 +11,17 @@
 
   <body class="landing">
   <script>
-    $(document).ready(function(){
+      $(document).ready(function(){
       resizeDiv();
       });
 
-      window.onresize = function(event) {
-      resizeDiv();
-      }
+      $(window).resize(resizeDiv());
 
       function resizeDiv() {
-      vpw = $(window).width();
-        if (vpw<600) {
-          $(‘.console’).css({‘flex-basis’: 85%});
-        }
+        vpw = $(window).width();
+          if (vpw<600) {
+            $(‘.console’).css(‘flex-basis’, '85%');
+          }
       }
   </script>
     <!-- Page Wrapper -->
