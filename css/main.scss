@@ -1859,6 +1859,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		border-radius: 10px 10px 0px 0px;
 		order:2;
 		flex-basis:70%;
+		padding:25px;
 
 		&:is-mobile {
 			flex-basis:90%;
@@ -1878,6 +1879,26 @@ $baseurl: '{{ site.baseurl }}/images';
 		display: block;
   		font-size: 15px;
   		color:black;
+  		text-align:left;
+  		padding: 20 px;
+  		font-family: 'Overpass Mono', monospace;
+  		list-style: none;
+   		margin-left: 0;
+   		padding-left: 1em;
+   		text-indent: -1em;
+	}
+
+	.innercode {
+		list-style-type: none;
+		text-indent: -1em;
+		padding-left: 3em;
+	}
+
+	.innerstar{
+		list-style: none;
+   		margin-left: 0;
+   		padding-left: 3em;
+   		text-indent: -1em;
 	}
 
 	.uncons {
