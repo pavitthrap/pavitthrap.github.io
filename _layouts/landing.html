@@ -17,10 +17,17 @@
             $(‘.console’).css(‘flex-basis’, '85%');
           }
       }
+      $(window).bind("load", function() {
+          var vpw = $(window).width();
+          if (vpw<600) {
+            $(‘.console’).css("flex-basis", '85%');
+          }
+   // code here 
+      });
       $(document).ready(function(){
         var vpw = $(window).width();
           if (vpw<600) {
-            $(‘.console’).css(‘flex-basis’, '85%');
+            $(‘.console’).css("flex-basis", '85%');
           }
       });
 
