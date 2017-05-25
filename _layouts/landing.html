@@ -11,18 +11,17 @@
 
   <body class="landing">
   <script>
-      $(document).ready(function(){
-      resizeDiv();
-      });
-
-      $(window).resize(resizeDiv());
-
       function resizeDiv() {
         vpw = $(window).width();
           if (vpw<600) {
             $(‘.console’).css(‘flex-basis’, '85%');
           }
       }
+      $(document).ready(resizeDiv);
+
+      $(window).resize(resizeDiv());
+
+      
   </script>
     <!-- Page Wrapper -->
     <div id="page-wrapper">
