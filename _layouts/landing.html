@@ -11,17 +11,27 @@
 
   <body class="landing">
   <script>
-/*      function resizeDiv() {
-        vpw = $(window).width();
+      function resizeDiv() {
+        var vpw = $(window).width();
           if (vpw<600) {
             $(‘.console’).css(‘flex-basis’, '85%');
           }
       }
-      $(document).ready(resizeDiv);
+      $(document).ready(function(){
+        var vpw = $(window).width();
+          if (vpw<600) {
+            $(‘.console’).css(‘flex-basis’, '85%');
+          }
+      });
 
-      $(window).resize(resizeDiv());
+      $(window).resize(function(){
+        var vpw = $(window).width();
+          if (vpw<800) {
+            $(‘.console’).css(‘flex-basis’, '85%');
+          }
+      });
 
-      */
+      
   </script>
     <!-- Page Wrapper -->
     <div id="page-wrapper">
