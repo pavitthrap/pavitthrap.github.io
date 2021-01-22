@@ -1,0 +1,59 @@
+---
+layout: page
+title: Blog
+---
+
+	<section id="one" class="wrapper style5">
+		<div class="inner">
+			<!-- <ul>
+			  {% for post in site.posts %}
+			    <li>
+			      <a href="{{ post.url }}">{{ post.title }}</a>
+			      {{ post.content }}
+			    </li>
+			  {% endfor %}
+			</ul> -->
+
+			{%- for post in site.posts -%}
+		      <ul >
+		        {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
+		        <a class="post-link" href="{{ post.url | relative_url }}">
+		          <h2 class="post-title">{{ post.title | escape }}</h2>
+		        </a>
+		        <div class="post-meta">
+		          <div class="post-date">
+		          	<ul class="icons">
+						<li><span class="icon fa-calendar " style="color:#4d5193"><span class="label">Lorem</span></span></li>
+						<li>{{ post.date | date: date_format }}</li>
+					</ul>
+		          </div>
+		          {%- if post.categories.size > 0-%}
+			          <ul class="post-categories">
+			            {%- for tag in post.categories -%}
+			            	<li>{{ tag }}</li>
+			            {%- endfor -%}
+			          </ul>
+		          {%- endif -%}
+		        </div>
+		        <div class="post">
+		          {{ post.content }}
+		        </div>
+		      </ul>
+		      <hr />
+		    {%- endfor -%}
+		</div>
+	</section>
+
+
+	<section id="cta" class="wrapper style4">
+		<div class="inner">
+			<header>
+				<h2>There's more to explore...</h2>
+				<p>Click on the these links to find out more about me.</p>
+			</header>
+			<ul class="actions vertical">
+				<li><a href="/index.html" class="button fit specialMain">Main</a></li>
+				<li><a href="/contact.html" class="button fit">Contact Me</a></li>
+			</ul>
+		</div>
+	</section>			

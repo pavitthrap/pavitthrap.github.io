@@ -1,3 +1,8 @@
+
+How to run locally:
+- Make sure you have Jekyll locally (`gem install jekyll`)
+- Run `jekyll serve` from the app folder
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 A Jekyll port of the Spectral theme by HTML5 UP.
 Find the original non-jekyll theme at: http://html5up.net/

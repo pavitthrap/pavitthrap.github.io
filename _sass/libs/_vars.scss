@@ -38,20 +38,21 @@
 
 // Palette.
 	$palette: (
-		bg:					#525963,
+		bg:					#21387B,
 		fg:					#fff,
 		fg-bold:			#fff,
 		fg-light:			rgba(255,255,255,0.5),
+		fg-dark:			#858589,
 		border:				#fff,
 		border-bg:			rgba(144,144,144,0.25),
 		border2:			#fff,
 		border2-bg:			rgba(144,144,144,0.5),
 
 		accent1: (
-			bg:				#21b2a6,
+			bg:				#758bfd,
 			fg-bold:		#ffffff,
-			fg:				mix(#21b2a6, #ffffff, 25%),
-			fg-light:		mix(#21b2a6, #ffffff, 40%),
+			fg:				mix(#758bfd, #ffffff, 25%),
+			fg-light:		mix(#758bfd, #ffffff, 40%),
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),
@@ -81,10 +82,10 @@
 		),
 
 		accent4: (
-			bg:				#76ddff,
+			bg:				#aeb8fe,
 			fg-bold:		#ffffff,
-			fg:				mix(#76ddff, #ffffff, 25%),
-			fg-light:		mix(#76ddff, #ffffff, 40%),
+			fg:				mix(#aeb8fe, #ffffff, 25%),
+			fg-light:		mix(#aeb8fe, #ffffff, 40%),
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),
@@ -92,10 +93,10 @@
 		),
 
 		accent5: (
-			bg:				#505393,
+			bg:				#f1f2f6,
 			fg-bold:		#ffffff,
-			fg:				mix(#505393, #ffffff, 25%),
-			fg-light:		mix(#505393, #ffffff, 40%),
+			fg:				mix(#f1f2f6, #ffffff, 25%),
+			fg-light:		mix(#f1f2f6, #ffffff, 40%),
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),
@@ -103,10 +104,10 @@
 		),
 
 		accent6: (
-			bg:				#ed4933,
+			bg:				#ff8600,
 			fg-bold:		#ffffff,
-			fg:				mix(#ed4933, #ffffff, 25%),
-			fg-light:		mix(#ed4933, #ffffff, 40%),
+			fg:				mix(#ff8600, #ffffff, 25%),
+			fg-light:		mix(#ff8600, #ffffff, 40%),
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),
@@ -125,10 +126,10 @@
 		),
 
 		accent8: (
-			bg:				#4F5393,
+			bg:				#4d5193,
 			fg-bold:		#ffffff,
-			fg:				mix(#4F5393, #ffffff, 25%),
-			fg-light:		mix(#4F5393, #ffffff, 40%),
+			fg:				mix(#4d5193, #ffffff, 25%),
+			fg-light:		mix(#4d5193, #ffffff, 40%),
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),

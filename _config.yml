@@ -4,17 +4,16 @@
 # Site settings
 title: Pavitthra Pandurangan
 description: |
-  I'm an avid computer scientist and a  
-  student. I like to shoot for the stars.
+  I'm a distributed systems engineer at Blockstack.
 owner: Pavitthra Pandurangan # or company name #old color: #2e3842
 first_published: 2017 # if migrating another site, the year of your first publish
-email: pavitthp@andrew.cmu.edu
+email: pavitthra.n.p@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 social:
   #twitter: https://twitter.com/<username>
   github: https://github.com/pavitthrap
-  linkedin-square: https://www.linkedin.com/in/pavitthra-pandurangan-620293102/
+  linkedin-square: https://www.linkedin.com/in/pavitthra/
   #facebook-official: https://facebook.com/<username>
   #google-plus-square: https://plus.google.com/u/0/+<username>
   #email: pavitthp@andrew.cmu.edu
