@@ -889,6 +889,20 @@ $baseurl: '{{ site.baseurl }}/images';
 				background-color: darken(_palette(accent1, bg), 5) !important;
 			}
 		}
+
+		&.specialThird {
+			background-color: _palette(accent8, bg);
+			box-shadow: none !important;
+			color: _palette(accent2, fg-bold) !important;
+
+			&:hover {
+				background-color: lighten(_palette(accent8, bg), 5) !important;
+			}
+
+			&:active {
+				background-color: darken(_palette(accent8, bg), 5) !important;
+			}
+		}
 		
 		
 		&.disabled,
@@ -2090,3 +2104,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		  color: #2E3842;
 		}
 	  }
+
+	mark{
+		background-color:#8aa3e69c;
+	}
