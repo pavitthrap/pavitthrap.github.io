@@ -1879,6 +1879,16 @@ $baseurl: '{{ site.baseurl }}/images';
 		flex-basis:70%;
 		padding:25px;
 	}
+	@media screen and (max-width: 900px){
+		.console{
+			background-color:#FFFFFF;
+			border-top: 20px solid #858589;
+			border-radius: 10px 10px 0px 0px;
+			order:2;
+			flex-basis:93%;
+			padding:20px;
+		}
+	}
 
 	.fixS {
 		flex-basis:90%;
@@ -1901,12 +1911,34 @@ $baseurl: '{{ site.baseurl }}/images';
    		padding-left: 1em;
    		text-indent: -1em;
 	}
+	@media screen and (max-width: 900px){
+		.codecons {
+			display: block;
+			font-size: 15px;
+			color:black;
+			text-align:left;
+			padding: 0 px;
+			font-family: 'Overpass Mono', monospace;
+			list-style: none;
+			margin-left: 0;
+			padding-left: 0.5em;
+			text-indent: -1em;
+		}
+	}
 
 	.innercode {
 		list-style-type: none;
 		text-indent: -1em;
 		padding-left: 2em;
 		font-size: 16px;
+	}
+	@media screen and (max-width: 900px){
+		.innercode {
+			list-style-type: none;
+			text-indent: -1em;
+			padding-left: 1em;
+			font-size: 14px;
+		}
 	}
 
 	.cons_command {
@@ -2107,4 +2139,21 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	mark{
 		background-color:#8aa3e69c;
+	}
+
+	.reading-list{
+		margin-top:-10px;
+	}
+
+	.home-page-box{
+		// padding-left:20%;
+		padding-left: 120px; 
+		padding-right: 120px;
+	}
+	
+	@media screen and (max-width: 900px){
+		.home-page-box{
+			padding-left: 10px; 
+			padding-right: 10px;
+		}
 	}
